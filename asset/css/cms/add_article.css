@@ -1,0 +1,26 @@
+.container .content-box .head{
+	padding-left: 20px;
+	width: 50%;
+	margin: auto auto;
+}
+.container .content-box .content{
+	display: block;
+	margin: 10px auto;
+	min-height: 300px;
+	max-width: 1100px;
+}
+.container .content-box .content h4{
+	background-color: green;
+	color: #fff;
+	border-radius: 4px;
+	padding: 5px;
+}
+
+.container .content-box .content div.left{
+	width: 60%;
+	padding: 30px;
+	border: 1px solid transparent;
+    display: block;
+	margin: auto auto;
+	background: #fff;
+}

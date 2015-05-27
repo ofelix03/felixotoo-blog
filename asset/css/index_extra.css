@@ -1,0 +1,138 @@
+h1{
+	font-size: 50px;
+}
+
+h2{
+	font-size: 25px;
+}
+
+hr{
+	border: none;
+	border-bottom: 1px solid #f6f6f6;
+}
+
+article{
+	min-height: 300px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.btn{
+	padding: 0px;
+	margin-bottom: 2px;
+}
+
+
+.btn a{
+	padding: 10px 25px;
+	display: block;
+	background-color: none;
+	border: 1px dashed #ff8866;
+	text-decoration: none;
+	border-radius: 2px;
+	font-size: 12px;
+}
+
+
+.btn a:hover{
+	text-decoration: none;
+	border: 1px solid #ff8866;
+	background-color: #ff8866;
+	color: #fff;
+	font-weight: bold;
+}
+
+
+.circle{
+	border-radius: 50%;
+	float:right;
+	width: 170px;
+	height: 170px;
+	padding: 8px;
+	background-color: #f8f2ff;
+	position: relative; 
+	top: 10px;
+}
+
+
+
+.inner-wrapper .inner-left article{
+	border-radius: 0px;
+	border: none;
+}
+
+
+.inner-wrapper .inner-left article div:nth-child(1){
+	width:98%; 
+	margin: 0px auto;
+}
+
+
+.inner-left ul.details a{
+	color:  #111;
+	text-decoration: none;
+}
+
+
+.inner-left ul.details li.thumbnail{
+	width: 32%;
+	height: 350px;
+	float: left;
+	margin-left: 1%;
+	padding: 0px;
+	border: 1px solid #f0f1f2;
+	border-radius: 0px;
+}
+
+
+.inner-left ul.details li.thumbnail:hover{
+	border: 1px solid #ff6600;
+}
+
+.inner-left ul.details li.thumbnail:hover .fa{
+	color: #ff6600;
+}
+
+.inner-left ul.details li.thumbnail:hover a{
+	color: #fff;
+}
+
+.inner-left ul.details li.thumbnail:hover div.text{
+	background: #ff6600;
+}
+
+.inner-left ul.details li.thumbnail div.img{
+	width: 100%;
+	height: 85%;
+	text-align: center;
+	background-color: #ccc;
+	padding-top: 30%;
+}
+
+.inner-left ul.details li.thumbnail div.img .fa{
+	font-size: 100px;
+	border: 1px solid none;
+	padding: 6% 10%;
+	border-radius: 50%;
+	background: #fff;
+}
+
+.inner-left ul.details li.thumbnail div.text{
+	padding: 10px;
+	height: 15%;
+	text-align: center;
+}
+
+@media screen and (min-width: 0px) and (max-width: 600px){
+	.inner-left ul.details li.thumbnail{
+		height : 200px;
+	}
+
+	.inner-left ul.details li.thumbnail a{
+		font-size: 14px;
+	}
+
+	.inner-left ul.details li.thumbnail div.img .fa{
+		font-size: 50px;
+	}
+}

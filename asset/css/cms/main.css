@@ -1,0 +1,208 @@
+.container .content-box  .commands, .container .content-box .view-options{
+	border: 3px solid  transparent;
+	width: 90%;
+	height: 40px;
+	margin: 10px auto;
+	background-color: #2060F5;
+
+}
+
+.container .content-box .commands ul, .container .content-box .view-options ul{
+	padding: 0px;
+}
+.container .content-box .commands ul li, .container .content-box .view-options ul li{
+	display: inline-block;
+	margin:0px;
+	position: relative;
+
+}
+
+.container .cotent-box .command ul li, .container .content-box .view-options ul li span.notify{
+	min-width: 20px;
+	padding: 2px;
+	position: absolute;
+	top: -10px;
+	left: 3px;
+	border-radius:  3px;
+	background-color: #BBC2AE;
+	color: #fff;
+	font-size: 10px;
+	z-index: 2;
+	font-weight: bold;
+	text-align: center;
+}
+
+.container .content-box .commands ul li a, .container .content-box .view-options ul li a{
+	text-decoration:  none;
+	display:block;
+	line-height: 30px;
+	border-right: 1px solid blue;
+	padding: 3px 10px;
+	z-index: 3;
+	color: #fff;
+}
+
+.container .content-box .view-options ul li .fa{
+	padding: 0px;
+	position: absolute;
+	top: 20px;
+	color: #F8F2FF;
+	left: 50%;
+	display: none;
+	z-index : 2;
+}
+
+
+.container .content-box .view-options ul li.current .fa{
+	display: block;
+}
+
+
+.container .content-box .commands li i{
+	position: absolute;
+	top: -4px;
+	right: 0px;
+	font-size: 45px;
+	z-index: -1;
+	display: none;
+}
+.container .content-box .content{
+	width: 1150px;
+	width: 98%;
+	margin: 10px auto;
+	min-height: 300px;
+	/*background-color: #fff;*/
+}
+
+.container .content-box .content table{
+	width: 100%;
+	border: 0px;
+}
+
+.container .content-box .content table tbody{
+	border: 0px;
+}
+
+
+.container .content-box .content table tr{
+	border-bottom: 1px solid #ccc;
+	width: 20px;
+}
+
+.container .content-box .content table tr a{
+	text-decoration: none;
+}
+.container .content-box .content table tr:nth-child(even){
+	background-color: #fff;
+}
+
+.container .content-box .content table tr td{
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	font-size: 12px;
+	overflow: hidden;
+	padding: 2px 5px;
+	height: 40px;
+	max-height: 40px;
+}
+
+.container .content-box .content table tr td:first-child{
+	border-left: none;
+}
+.container .content-box .content table tr td:last-child{
+	border-right: none;
+}
+
+.container .content-box .content table tr:first-child td{
+	height: 25px;
+	max-height: 25px;
+}
+
+.container .content-box .content table tr td img{
+	width: 25px;
+	max-width: 25px;
+	height:30px;
+	padding: 6px;
+	text-align: center;
+
+}
+
+.container .content-box .content table tr:first-child{
+	
+	border-bottom: 2px solid blue;
+	border-top: 1px solid #ccc;
+	padding: 0px 0px 0px 3px;
+}
+
+.container .content-box .content table tr:first-child a{
+	text-decoration:  none;
+	display: block;
+}
+
+.container .content-box .content table tr:first-child a .fa{
+	display: none;
+}
+
+.container .content-box .content table tr:first-child a:hover .fa{
+	display: inline;
+}
+
+
+.container .content-box .content table tr td:nth-child(1){
+	width: 65px;
+	max-width: 65px;
+}
+
+.container .content-box .content table tr td:nth-child(2){
+	min-width: 200px;
+	max-width: 250px;
+	width: 160px;
+}
+
+.container .content-box .content table tr td:nth-child(3){
+	min-width: 150px;
+	max-width: 150px;
+	width: 150px;
+}
+.container .content-box .content table tr td:nth-child(4){
+	min-width: 500px;
+	max-width: 950px;
+	width: 900px;
+	cursor: pointer;
+}
+
+
+.container .content-box .content table tr td:nth-child(5){
+	width: 32px;
+	max-width: 32px;
+	cursor: pointer;
+}
+
+.container .content-box .content table tr td:nth-child(6)
+{
+	width: 32px;
+	max-width: 32px;
+	cursor: pointer;
+}
+
+.container .content-box .content table tr td:nth-child(6){
+	width: 32px;
+	max-width:  32px;
+	cursor: pointer;
+}
+
+.container .content-box .content table tr td:nth-child(7){
+	width: 32px;
+	max-width:  32px;
+	cursor: pointer;
+}
+
+/*.container .content-box .content table tr{
+	border-bottom: 1px solid #ccc;
+}
+
+.container .content-box .content table tr td{
+	border: none;
+	border-right: 1px solid #ccc;
+
+}*/

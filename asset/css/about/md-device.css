@@ -1,0 +1,30 @@
+	@media screen and (min-width: 500px) and (max-width: 750px) {
+		.inner-wrapper .inner-left .profile-section ul.links{
+			border-radius:  0px;
+			
+		}
+	   
+		.inner-wrapper .inner-left .profile-section article#skills ul{
+			float:  none;
+			width: 100%;
+		}
+
+		.inner-wrapper .inner-left .profile-section ul.links li{
+		   margin-bottom: 2px;
+		}
+
+
+		.inner-wrapper .inner-left .profile-section article#skills .logos 
+		{
+			position: relative; top: 0px;
+		}
+
+
+
+		.inner-wrapper .inner-left .profile-section article#contact div.social-network,
+		.inner-wrapper .inner-left .profile-section article#contact div.phone{
+			width: 100%;
+			float: none;
+		}
+
+	}

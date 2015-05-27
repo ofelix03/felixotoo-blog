@@ -1,0 +1,88 @@
+
+@media screen and (min-width: 0px) and (max-width: 499px){
+.inner-wrapper .inner-left .wallpaper{
+	background-size: 100% 65%; 
+ }
+
+.inner-wrapper .inner-left .profile-section article{
+	padding: 15px;
+	padding-bottom: 30px;
+}
+
+
+.inner-wrapper .inner-left .profile-section .my-pic{
+	border-radius: 50%; 
+	width:180px;
+	height: 180px;
+	left: 30%;
+}
+
+
+.inner-wrapper .inner-left .profile-section ul.links{
+	padding: 0px;
+	border: none;
+	width: 100%;
+	background: #9cf;
+	list-style :none;
+	border-radius: 0px;
+	text-align: center;
+}
+
+
+.inner-wrapper .inner-left .profile-section ul.links li{
+	display: list-item;
+	border: none;
+	margin: 0px;
+	border-bottom: 1px solid #111;
+
+}
+
+.inner-wrapper .inner-left .profile-section ul.links li:last-child{
+	border-bottom: none;
+}
+
+
+
+.inner-wrapper .inner-left .profile-section ul.links li a{
+	display: list-item;
+	padding: 3px;
+	color: #111;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+
+.inner-wrapper .inner-left .profile-section ul.links li a:hover{
+	text-decoration: none;
+	color: #9cf;
+
+}
+
+.inner-wrapper .inner-left .profile-section article#description{
+	margin-top: 150px;
+}
+					
+
+.inner-wrapper .inner-left .profile-section article#skills ul{
+	float:  none;
+	width: 100%;
+}
+
+.inner-wrapper .inner-left .profile-section article#skills .logos 
+{
+	position: relative; top: 0px;
+}
+
+
+
+.inner-wrapper .inner-left .profile-section article#contact div.social-network,
+	.inner-wrapper .inner-left .profile-section article#contact div.phone{
+		width: 100%;
+		float: none;
+	}
+
+
+
+
+}

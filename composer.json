@@ -1,0 +1,7 @@
+{
+    "require": {
+		"swiftmailer/swiftmailer": "@stable",
+        "monolog/monolog": "~1.13",
+        "nesbot/carbon": "^1.19"
+     }
+}

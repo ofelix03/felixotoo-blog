@@ -1,0 +1,275 @@
+ul.list{
+    list-style: disc;
+}
+ul.list li{
+    margin-left: 30px;
+}
+
+.inner-wrapper .inner-left a{
+    line-height: 24px;
+}
+.inner-wrapper .inner-left .profile-section-container{
+    border: 1px solid #fff;position: relative;
+
+}
+.inner-wrapper .inner-left .wallpaper{
+    height: 400px; 
+    width: 100%;
+     position: absolute; z-index: auto;
+     background-image: url(http://localhost/codeigniter/asset/img/my_wallpapers/ONeill_SS14_39_0034.jpg);
+     background-size: 100% auto;
+}
+
+.inner-wrapper .inner-left .profile-section{
+    padding-bottom: 2px;
+    background-repeat: repeat-x;
+    top: 100px;
+}
+
+
+.inner-wrapper .inner-left .profile-section article{
+    border-bottom: none;
+    padding: 20px 30px;
+    border-radius: 0px;
+    width: 100%;
+    margin: 2px 0px 0px 0px;
+}
+
+
+.inner-wrapper .inner-left .profile-section ul.links{
+    width: 100%;
+    background: #fff;
+    margin-top: 30px;
+    position: relative;
+    z-index: auto;
+    border: 1px solid transparent;
+    display: none;
+}
+
+
+
+.inner-wrapper .inner-left .profile-section ul.links li{
+    display: inline-block;
+    margin: 1px;
+}
+
+
+
+
+.inner-wrapper .inner-left .profile-section ul.links li a{
+    display:  block;
+    padding: 2px 30px;
+    text-decoration: none;
+    color: #666;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.inner-wrapper .inner-left .profile-section ul.links li a:hover{
+  color: #444;
+
+}
+
+
+/************* hidden links **********/
+
+#hidden-links{
+    position: fixed;
+    top: 38px;
+    display: none;
+    width: 58%;
+    z-index: 9;
+    margin-left: 0px;
+    font-size: 14px;
+
+}
+
+.link-menu-trigger span{
+    border: 2px solid #f0f1f2;
+    background-color: #fff;
+    width: 0px;
+    position: fixed;
+    left:  -30px;
+    top: 29%;
+    font-size: 16px;
+    font-family: Consolas;
+    padding: 3px 4px 3px 20px;
+
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition : color 1s;
+    transition : background-color 600ms;
+    z-index: 10;
+    color: #ccc;
+}
+
+.link-menu-trigger span:hover{
+    color: #555;
+}
+
+#hidden-links{
+    opacity: 0.9;
+}
+
+
+
+/*************************/
+
+.inner-wrapper .inner-left .profile-section .my-pic{
+    -webkit-border-radius : 50%;
+    -moz-border-radius: 50%;
+    border: 1px solid transparent;
+    border-radius: 50%; 
+    width:200px;
+    height: 200px;
+    padding: 3px;
+    background-color: #fff;
+    position: absolute;
+    margin-top: 20px;
+    left: 35%;
+    top:  -130px;
+
+}
+
+
+.inner-wrapper .inner-left .profile-section article h2:first-child{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.inner-wrapper .inner-left .profile-section article#description{
+    margin-top: 200px;
+    padding-top: 100px;
+    position: relative;
+    border-radius: 0px;
+}
+
+.inner-wrapper .inner-left .profile-section article#description h2{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.inner-wrapper .inner-left .profile-section article#description .file-download{
+    position: absolute;
+    top: 20px;
+
+}
+
+.inner-wrapper .inner-left .profile-section article#description .file-download a{
+    border: 1px solid #9cf;
+    background-color: #9cf;
+    padding: 2px 4px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    margin: 2px;
+    display: block;
+    font-size: 14pxp;
+}
+
+
+.inner-wrapper .inner-left .profile-section article#skills .logos li{
+    display:inline-block;
+    list-style: none;
+}
+
+
+.inner-wrapper .inner-left .profile-section article#skills .list li a{
+    line-height: 24px;
+}
+
+
+
+
+.inner-wrapper .inner-left .profile-section article#skills .logos li img{
+   width: 150px;
+   height: 150px;
+   margin: 10px;
+
+}
+
+
+.inner-wrapper .inner-left .profile-section article#contact div.social-network,
+.inner-wrapper .inner-left .profile-section article#contact div.phone{
+    width: 50%;
+    float: left;
+    font-style: italic;
+}
+
+.inner-wrapper .inner-left .profile-section article#contact div.social-network a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+
+.inner-wrapper .inner-left .profile-section article#contact form input[type='text'], 
+.inner-wrapper .inner-left .profile-section article#contact form input[type='email'], 
+.inner-wrapper .inner-left .profile-section article#contact form textarea{
+    border-radius: 2px;
+    border: 2px solid #f8f2ff;
+    height: 30px;
+    width: 100%;
+    font-weight: normal;
+    color: #888;
+    font-size: 12px;
+    padding: 15px;
+    margin: 1px;
+}
+
+
+.inner-wrapper .inner-left .profile-section article#contact form input[type='text']:focus, 
+.inner-wrapper .inner-left .profile-section article#contact form input[type='email']:focus, 
+.inner-wrapper .inner-left .profile-section article#contact form textarea:focus{
+    border: 2px solid #ccc;
+}
+.inner-wrapper .inner-left .profile-section article#contact form li label{
+    padding-left: 5px;
+}
+
+.inner-wrapper .inner-left .profile-section article#contact form input[type="submit"]{
+    width: 140px;
+    display: inline-block;
+    border: 2px solid #f8f2ff;
+    background: #fff;
+    padding: 5px;
+    font-size: 14px;
+    color: #888;
+
+}
+
+.inner-wrapper .inner-left .profile-section article#contact form textarea{
+    height: 150px;
+}
+
+.social-ntwk{
+    border: 1px solid #fff;
+    background: #ccc;
+    width: 60%;
+    max-width: 100%;
+}
+.social-ntwk i{
+    /*border: 1px solid #fff;*/
+    padding: 10px;
+    width: 25%;
+    text-align : center;
+    margin: 2px;
+    color: #fff;
+
+}
+
+.social-ntwk a{
+    display: block;
+    color: #111;
+    font-family: Corbel;
+}
+
+
+
+
+
+

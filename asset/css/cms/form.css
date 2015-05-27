@@ -1,0 +1,100 @@
+/* form css */
+
+.block{
+	display: block;
+}
+input:focus, input:hover, textarea:focus, textarea:hover{
+	border: 1px solid #ccc;
+}
+
+
+form#ofelix{
+	width: 98%;
+}
+
+form#ofelix label{
+	display: block;
+	padding-left: 3px;
+	font-style: italic;
+
+}
+
+form#ofelix span{
+	display: block;
+}	
+
+form#ofelix span input, .container .content-box .content form span textarea{
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 5px;
+}
+
+form#ofelix input, form#ofelix textarea, form#ofelix select{
+	height: 35px;
+	border: 1px solid #fff;
+	box-shadow: -1px -2px 1px #F8F2FF,  1px 2px 1px #F8F2FF;
+	margin-bottom: 5px;
+	margin-right: 3px;
+	padding-left: 10px;
+	border-radius: 4px;
+	border: 1px solid #DEDEDE;
+}
+
+
+
+
+form#ofelix textarea{
+	height: 100px;
+	min-height: 200px;
+}
+
+
+form#ofelix input.warning-notice{
+	border: 2px solid red;
+}
+
+form#ofelix input.warning{
+	border: 2px solid red;
+}
+
+p.success{
+	border: 2px solid green;
+	background-color: green;
+	color: #fff;
+	width: 80%;
+	margin: 0px auto;
+	text-align: center;
+}
+p.warning{
+	color: #fff;
+	text-align: center;
+	width: 80%;
+	margin: 20px auto;
+	background-color: red;
+}
+
+p.warning span{
+	display: block;
+	padding: 5px;
+
+}
+
+p.warning span:first-child{
+	background-color: red;
+
+}
+
+
+
+
+
+form#ofelix .carousel-data span{
+	width: 32%;
+	display: inline-block;
+}
+
+form#ofelix .carousel-data span:nth-child(2){
+	width: 100%;
+}
+
+/* end of form css */

@@ -1,0 +1,127 @@
+
+@media screen and (min-width: 0px) and (max-width: 600px){
+	
+
+	article img{
+		float: left;
+		padding: 10px 10px;
+		height: 150px;
+		width: 150px;
+	}
+
+
+	
+	.nav{
+		position: relative;
+		height: auto;
+	}
+
+	.nav  .logo{
+		float: none;
+		width: 100%;
+		text-align: center;
+		border-bottom: 1px solid #f0f1f2;
+	}
+	.nav .logo span img{
+		width: 20%;
+		float: left;
+		min-width: 20%;
+		margin-right: 5px;
+	}
+
+	.nav  form.searchbox{
+		border-bottom: none;
+		float: none;
+		/*width: 100%;*/
+		margin: 0px auto;
+		padding: 5px;
+		display: inline-block;
+
+	}
+
+	
+
+	.nav  form.searchbox span.clear-icon{
+		top: 10px;
+	}
+
+	.nav .logo .menu-trigger{
+		float: right;
+		background-color: transparent;
+		margin: 10px 10px auto auto;
+		display: block;
+		padding: 5px;
+		font-family: Consolas;
+		font-weight: bold;
+		border: none;
+	}
+
+	.nav .logo span.menu-trigger:hover{
+		cursor:pointer;
+
+	}
+
+	
+	.nav ul{
+		float: none;
+		width:100%;
+		border-bottom: 1px solid #f0f1f2;
+		margin-bottom: 2px;
+		display: none;
+		padding: 0px;
+	}
+
+	.nav ul li {
+		margin-top: 3px;
+		display: inline-block;
+		border: none;
+	}
+
+	.nav ul li#current{
+		border: none;
+	}
+
+	.nav ul li#current .fa:nth-child(2n) {
+		display: none;
+	}
+    
+    .nav ul li a{
+    	padding-bottom: 6px;
+    }
+	.nav ul li a .fa{
+		display: none;
+	}
+
+	/*overridding nav ul li:hover */
+	.nav ul li:hover{
+		border-bottom: none;
+	}
+
+
+	.nav ul li:last-child{
+		margin-bottom: 3px ;
+	}
+
+	.inner-wrapper{
+		margin-top: 0px;
+	}
+
+	.inner-wrapper .inner-left{
+		display: block;
+		width: 100%;
+		margin: 5px auto;
+		float: none;
+	}
+
+
+	.inner-wrapper .inner-left h2{
+		font-size: 24px;
+	}
+
+	.inner-wrapper .inner-right{
+		float: none;
+		display: block;
+		width: 100%;
+	}
+
+}

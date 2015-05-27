@@ -1,0 +1,167 @@
+
+@media screen and (min-width: 601px) and (max-width: 800px) {
+	article img{
+		float: left;
+		padding: 10px 10px;
+		height: 50%;
+		width: 90%;
+	}
+
+	.nav{
+		position: relative;
+		height: auto;
+	}
+
+	.nav  .logo{
+		float: none;
+		width: 100%;
+		text-align: center;
+		border-bottom: 1px solid #f0f1f2;
+		text-align: left;
+	}
+
+	.nav .logo span img{
+		width: 20%;
+		float: left;
+		min-width: 20%;
+		margin-right: 5%;
+	}
+
+	.nav form.searchbox{
+		display: none;
+		border-bottom: none;
+		position: relative;
+	}
+
+	.nav span.searchbox-sm{
+		min-width: 50%;
+		max-width: 50%;
+		display: inline-block;
+		margin-top: 10px;
+	}
+
+	.nav .searchbox-sm form input[type="text"]{
+		border: 2px solid #f0f1f2;
+		height: 35px;
+
+	}
+
+
+	.nav .searchbox-sm form input[type="submit"]{
+		border: 2px solid #f0f1f2;
+		height: 34px;
+		line-height: 20px;
+		margin-bottom: 2px;
+		background-color: transparent;
+	}
+
+	.nav .logo  .menu-trigger{
+		float: right;
+		background-color: transparent;
+		margin: 5px 5px;
+		display: block;
+		padding: 5px;
+		font-weight: bold;
+		max-width: 20%;
+	}
+
+
+
+
+	.nav ul{
+		width: 100%;
+		float: none;
+		border-bottom: none;
+		display: none;
+		margin-left: 4px;
+	}
+
+	.nav ul li{
+		margin-bottom: 3px ;
+		margin-top: 2px;
+		display: inline-block;
+		border-bottom: 1px solid none;
+	}
+
+	.nav ul li:last-child{
+		border-bottom: none;
+	}
+
+	.nav ul li:hover{
+		border-bottom: 1px solid transparent;
+	}
+
+	.nav ul li:last-child:hover{
+		border-bottom:none;
+	}
+	.nav ul li a{
+    	padding-bottom: 6px;
+    }
+
+
+	.nav ul li#current .fa:nth-child(even){
+		display: none;
+	}
+
+	.nav ul li#current{
+		border-bottom : none;
+	}
+
+	/*overridding nav ul li:hover */
+
+
+
+	.inner-wrapper{
+		margin-top: 0px;
+
+	}
+
+
+	.inner-wrapper .inner-left{
+		float: none;
+		display: block;
+		width: 98%;
+		margin: 10px auto;
+
+	}
+
+
+
+	.inner-wrapper .inner-left .carousel .jumbotron{
+		height: 400px;
+		background-color: #fff;
+		margin: 0px;
+		padding: 10px;
+		padding-right: 20px;
+		overflow: hidden;
+		/*background-color: #9cf;*/
+
+	}
+
+	.inner-wrapper .inner-right{
+		float: none;
+		display: block;
+		width: 100%;
+		padding-left: 10px;
+
+	}
+
+	.inner-wrapper .inner-right article.top-section, article.bottom-section{
+		float: none;
+		padding: 5px;
+		padding-top: 20px;
+
+	}
+
+	.inner-wrapper .inner-right article.top-section{
+		float: none;
+		display: block;
+	}
+
+	.inner-wrapper .inner-right article.bottom-section{
+		display:block;
+	}
+	.inner-wrapper .inner-right article:first-child{
+
+	}
+}
