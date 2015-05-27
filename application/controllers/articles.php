@@ -20,7 +20,6 @@ class Articles extends CI_Controller{
 		//default page_title
 		$this->data['page_title'] = 'Ofex.com | Articles';
 
-		// require_once 'asset/libraries/autoload.php';
 
 	}
 
